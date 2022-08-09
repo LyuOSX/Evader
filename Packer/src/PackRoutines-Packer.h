@@ -1,8 +1,5 @@
 #pragma once
 
-#ifndef __PACKROUTINES__H__
-#define __PACKROUTINES__H__
-
 #include <Windows.h>
 #include <tchar.h>
 #include <stdlib.h>
@@ -44,5 +41,3 @@ int packfiles(char *path, char *mask, char *archive, int KEY_SIZE, int START_ASC
 int SfxSetInsertPos(char *filename, long pos);
 
 void setKey(char* key, int key_size);
-
-#endif
